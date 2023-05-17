@@ -3,8 +3,18 @@ h1{
     color: aquamarine;
 }
 .gg-menu{
-    padding:top;
+    padding:20px;
+    left: 0;
 }
 .gg-arrows-expand-right{
     padding: auto;
+}
+#icon{
+    padding: 30px;
+    right:0;
+}
+.icon{
+    display: inline;
+    margin-top: 10%;
+    background-color: aqua;
 }
