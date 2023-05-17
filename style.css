@@ -1,12 +1,15 @@
-h1{
-    text-align: center;
-    color: aquamarine;
+
+#cc
+{
+margin-top: 0;
 }
-.gg-menu{
-    padding:top;
+.icon i{
+    display: inline-block;
     
+        background-color: red;
 }
-.gg-arrows-expand-right{
-    padding: auto;
+.search
+{
     
+      text-align:center;
 }
