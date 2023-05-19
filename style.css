@@ -8,18 +8,19 @@ a{
     text-decoration: none;
     color: blue;
 }
-img{
-    cursor: pointer;
-}
+
+
 .nav-right i
 {
     display: inline-flex;
     cursor: pointer; 
    
-    width: 25px;
+    width: 18px;
     margin-right: 25px;
-
-}
+   }
+   .nav-right i:first-child{
+    margin-top: 10px;
+   }
 .nav-left i{
     display: inline-flex;
    width: 25px;
@@ -27,15 +28,23 @@ img{
     
     cursor: pointer;
 }
+.nav-left i:first-child{
+    margin-bottom: 10px;
+}
 .nav-center i{
     cursor: pointer;
+    margin-right: 25px;
+    
 }
 
+
 .nav-center .searchbox{
+    display: inline;
     margin-right: 20px;
     border-radius: 25px;
     border: 1px solid #ccc;
     padding: 8px 12px;
+
 }
 
 .flex-div{
@@ -63,12 +72,8 @@ nav{
     padding-top: 80px;
     top: 0;
 
-
-    
-       
-      
 }
-  .shortcutlinks a
+.shortcutlinks a
 {
 width: fixed;
 display: flex;
@@ -81,7 +86,8 @@ flex-wrap: wrap;
 width: 20px;
 margin-right: 10px;
 }
-.shortcutlinks {
+.shortcutlinks 
+{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -89,15 +95,18 @@ margin-right: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  .shortcutlinks a:hover {
+.shortcutlinks a:hover 
+{
     background-color: #ddd;
 }
 
-.sidebar:hover .shortcutlinks {
+.sidebar:hover .shortcutlinks 
+{
     display: block;
 }
 
-.sidebar:hover .gg-menu {
+.sidebar:hover .gg-menu 
+{
     background-color: #3e8e41;
 }
 
